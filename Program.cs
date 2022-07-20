@@ -20,6 +20,9 @@ namespace ConsoleApp
             // https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/
             Console.WriteLine(string.Join(",", MaxCounters.Solution2(5,new int[]{ 3,4,4,6,1,4,4 })));
             
+            // https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/
+            Console.WriteLine(MissingInteger.Solution2(new int[]{ 1, 3, 6, 4, 1, 2 }));
+            
 
             Console.ReadKey();
         }
