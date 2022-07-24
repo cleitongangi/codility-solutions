@@ -19,7 +19,8 @@ namespace ConsoleApp.Lessons
         }
 
         // Best solution
-        public int Solution2(int[] A) {            
+        public static int Solution2(int[] A)
+        {
             HashSet<int> found = new HashSet<int>();
             for (int i = 0; i < A.Length; i++)
             {
