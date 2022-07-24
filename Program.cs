@@ -24,7 +24,11 @@ namespace ConsoleApp
             //Console.WriteLine(MissingInteger.Solution2(new int[]{ 1, 3, 6, 4, 1, 2 }));
 
             // https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
-            Console.WriteLine(PassingCars.Solution2(new int[] { 0, 1, 0, 1, 1 }));
+            //Console.WriteLine(PassingCars.Solution2(new int[] { 0, 1, 0, 1, 1 }));
+
+            // https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/            
+            Console.WriteLine(CountDiv.Solution2(10, 99, 2));
+
 
             Console.ReadKey();
         }
