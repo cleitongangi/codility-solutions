@@ -29,6 +29,8 @@ namespace ConsoleApp
             // https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/            
             Console.WriteLine(CountDiv.Solution2(10, 99, 2));
 
+            // https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
+            
 
             Console.ReadKey();
         }
