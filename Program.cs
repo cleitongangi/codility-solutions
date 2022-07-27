@@ -30,7 +30,7 @@ namespace ConsoleApp
             Console.WriteLine(CountDiv.Solution2(10, 99, 2));
 
             // https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
-            
+            Console.WriteLine(string.Join(",", GenomicRangeQuery.Solution("AC", new int[] { 0,0,1}, new int[] { 0,1,1 })));
 
             Console.ReadKey();
         }
