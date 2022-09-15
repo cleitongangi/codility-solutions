@@ -27,10 +27,14 @@ namespace ConsoleApp
             //Console.WriteLine(PassingCars.Solution2(new int[] { 0, 1, 0, 1, 1 }));
 
             // https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/            
-            Console.WriteLine(CountDiv.Solution2(10, 99, 2));
+            //Console.WriteLine(CountDiv.Solution2(10, 99, 2));
 
             // https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
-            Console.WriteLine(string.Join(",", GenomicRangeQuery.Solution("AC", new int[] { 0,0,1}, new int[] { 0,1,1 })));
+            //Console.WriteLine(string.Join(",", GenomicRangeQuery.Solution("AC", new int[] { 0,0,1}, new int[] { 0,1,1 })));
+
+            // https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/
+            Console.WriteLine(MinAvgTwoSlice.Solution(new int[] { 4, 2, 2, 5, 1, 5, 8 }));
+
 
             Console.ReadKey();
         }
