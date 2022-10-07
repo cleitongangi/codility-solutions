@@ -33,8 +33,23 @@ namespace ConsoleApp
             //Console.WriteLine(string.Join(",", GenomicRangeQuery.Solution("AC", new int[] { 0,0,1}, new int[] { 0,1,1 })));
 
             // https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/
-            Console.WriteLine(MinAvgTwoSlice.Solution(new int[] { 4, 2, 2, 5, 1, 5, 8 }));
+            // Console.WriteLine(MinAvgTwoSlice.Solution(new int[] { 4, 2, 2, 5, 1, 5, 8 }));
 
+            // CoutingSort Sample. Ref: https://code-maze.com/counting-sort-in-c/
+            //Console.WriteLine(string.Join(",", CoutingSort.CountingSort(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+
+            // Selection Sort. Ref: https://code-maze.com/csharp-selection-sort/
+            //Console.WriteLine(string.Join(",", SelectionSort.SortArray(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+
+            // Merge Sort. Ref: https://code-maze.com/csharp-merge-sort/
+            //Console.WriteLine(string.Join(",", SortMerge.Sort(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+
+            // Bubble Sort. Ref: https://code-maze.com/csharp-bubble-sort/
+            //Console.WriteLine(string.Join(",", BubbleSort.SortArray(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+            
+            // Quicksort. Ref: https://code-maze.com/csharp-quicksort-algorithm/
+            Console.WriteLine(string.Join(",", Quicksort.Sort(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+            
 
             Console.ReadKey();
         }
