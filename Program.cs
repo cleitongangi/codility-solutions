@@ -48,8 +48,10 @@ namespace ConsoleApp
             //Console.WriteLine(string.Join(",", BubbleSort.SortArray(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
             
             // Quicksort. Ref: https://code-maze.com/csharp-quicksort-algorithm/
-            Console.WriteLine(string.Join(",", Quicksort.Sort(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
+            //Console.WriteLine(string.Join(",", Quicksort.Sort(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
             
+            // https://app.codility.com/programmers/lessons/6-sorting/distinct/
+            Console.WriteLine(string.Join(",", Distinct.BestSolution(new int[] { 7, 1, 2, 8, 9, 9, 4, 1, 5, 5 })));
 
             Console.ReadKey();
         }
