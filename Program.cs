@@ -57,7 +57,11 @@ namespace ConsoleApp
             //Console.WriteLine(string.Join(",", MaxProductOfThree.Solution(new int[] { -3, 1, 2, -2, 5, 6 })));
 
             // https://app.codility.com/programmers/lessons/6-sorting/triangle/
-            Console.WriteLine(string.Join(",", Triangle.Solution(new int[] { int.MaxValue, int.MaxValue, int.MaxValue })));
+            //Console.WriteLine(string.Join(",", Triangle.Solution(new int[] { int.MaxValue, int.MaxValue, int.MaxValue })));
+
+            // https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/
+            //Console.WriteLine(string.Join(",", NumberOfDiscIntersections.Solution(new int[] { 1, 5, 2, 1, 4, 0 })));
+            Console.WriteLine(string.Join(",", NumberOfDiscIntersections.Solution(new int[] { 1, 1, 1 })));
 
             Console.ReadKey();
         }
