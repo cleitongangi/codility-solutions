@@ -61,7 +61,12 @@ namespace ConsoleApp
 
             // https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/
             //Console.WriteLine(string.Join(",", NumberOfDiscIntersections.Solution(new int[] { 1, 5, 2, 1, 4, 0 })));
-            Console.WriteLine(string.Join(",", NumberOfDiscIntersections.Solution(new int[] { 1, 1, 1 })));
+            //Console.WriteLine(string.Join(",", NumberOfDiscIntersections.Solution(new int[] { 1, 1, 1 })));
+
+            // https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/            
+            //Console.WriteLine(Brackets.Solution("{[(A)A()A]A}")); // Returns 1
+            //Console.WriteLine(Brackets.Solution("([A)()]")); // Returns 0
+            Console.WriteLine(Brackets.Solution(")(")); // Returns 0
 
             Console.ReadKey();
         }
