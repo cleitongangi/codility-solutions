@@ -73,9 +73,12 @@ namespace ConsoleApp
             //Console.WriteLine(Fish.Solution(new int[] { 4, 3, 2, 1, 5 }, new int[] { 1, 1, 0, 0, 0 })); // Returns 1
 
             // https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/
-            Console.WriteLine(Nesting.Solution("(()(())())")); // Returns 1
-            Console.WriteLine(Nesting.Solution("())")); // Returns 0
-            Console.WriteLine(Nesting.Solution("(()")); // Returns 0            
+            //Console.WriteLine(Nesting.Solution("(()(())())")); // Returns 1
+            //Console.WriteLine(Nesting.Solution("())")); // Returns 0
+            //Console.WriteLine(Nesting.Solution("(()")); // Returns 0            
+
+            // https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/
+            Console.WriteLine(StoneWall.Solution(new int[] { 8, 8, 5, 7, 9, 8, 7, 4, 8 })); // Returns 7
 
             Console.ReadKey();
         }
