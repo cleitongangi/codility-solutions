@@ -78,7 +78,11 @@ namespace ConsoleApp
             //Console.WriteLine(Nesting.Solution("(()")); // Returns 0            
 
             // https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/
-            Console.WriteLine(StoneWall.Solution(new int[] { 8, 8, 5, 7, 9, 8, 7, 4, 8 })); // Returns 7
+            //Console.WriteLine(StoneWall.Solution(new int[] { 8, 8, 5, 7, 9, 8, 7, 4, 8 })); // Returns 7
+
+            // https://app.codility.com/programmers/lessons/8-leader/dominator/
+            Console.WriteLine(Dominator.Solution(new int[] { 3, 4, 3, 2, 3, -1, 3, 3 })); // Returns 7
+
 
             Console.ReadKey();
         }
